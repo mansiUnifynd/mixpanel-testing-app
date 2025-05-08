@@ -3,7 +3,7 @@
 client_id = "1003dfd9518ccce9e0936021b11658f4"
 name = "mixpanel-testing-app"
 handle = "mixpanel-testing-app"
-application_url = "https://turner-meant-headed-agreed.trycloudflare.com"
+application_url = "https://mixpanel-testing-app.fly.dev"
 embedded = true
 
 [build]
@@ -61,9 +61,9 @@ scopes = "read_assigned_fulfillment_orders,read_cart_transforms,read_checkout_br
 
 [auth]
 redirect_urls = [
-  "https://turner-meant-headed-agreed.trycloudflare.com/auth/callback",
-  "https://turner-meant-headed-agreed.trycloudflare.com/auth/shopify/callback",
-  "https://turner-meant-headed-agreed.trycloudflare.com/api/auth/callback"
+  "https://mixpanel-testing-app.fly.dev/auth/callback",
+  "https://mixpanel-testing-app.fly.dev/auth/shopify/callback",
+  "https://mixpanel-testing-app.fly.dev/api/auth/callback"
 ]
 
 [pos]
